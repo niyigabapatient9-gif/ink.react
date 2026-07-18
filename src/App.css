@@ -1,0 +1,63 @@
+* 
+ 
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 10%;           
+  background-color: #ffffff;
+  min-height: 80vh;            
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  overflow: hidden;
+}
+.hero-container .main-container{
+    margin-left:50% ;
+}
+
+.title {
+  font-size: 4rem;             
+  font-weight: 800;
+  line-height: 1.15;
+  color: #000000;
+  margin: 0 0 2rem 0;
+  letter-spacing: -1px;
+}
+
+
+button{
+  background-color: #0066ff;   
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.9rem 2.2rem;
+  border: none;
+  border-radius: 30px;         
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.button :hover {
+  background-color: #0052cc;   
+  transform: translateY(-2px); 
+}
+/* 
+   3. RIGHT IMAGE SIDE
+   */
+.imagecontainer {
+  width: 30%;
+  max-width: 100px;        
+  height: 40%;
+  margin-right: 40%;
+}
+  .hero-container {
+    flex-direction: column-reverse; 
+    text-align: center;
+    padding: 3rem 5%;
+    gap: 3rem;
+  }
+  .hero-content {
+    align-items: center;       
+  }
+  .hero-title {
+    font-size: 2.8rem;        
+}
