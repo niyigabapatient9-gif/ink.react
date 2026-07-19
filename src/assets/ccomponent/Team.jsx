@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./team.css";
-function team(){
+function Team(){
     return(
         <div class="team">
          <h1>Our team belives you deserve only the best.</h1>
@@ -10,4 +10,4 @@ function team(){
         </div>
     )
 }
-export default team;
+export default Team;
