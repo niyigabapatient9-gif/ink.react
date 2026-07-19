@@ -1,7 +1,7 @@
 import React from "react";
- import Slider from "src/assets/components/slider";
 
  import "./about.css";
+
 function About(){
     return(
   <div className="about-container">
