@@ -53,7 +53,7 @@ function About(){
            maecenas accumsan lacus vel facilisis.</p>
            <button>Get started</button>
    </section>
-   <Slider/>
+   
   </div>
     )
 }
