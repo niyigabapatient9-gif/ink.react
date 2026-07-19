@@ -45,6 +45,7 @@ function About(){
       <p>We are a digital agency that builds amazing products.</p>
      <a href="#"><button>Get Started</button></a>
     </section>
+    <section className="combined">
    <section className="cardcontainer">
      <h3>beliefs</h3>
         <h1>Honesty and hard work are our beliefs.</h1>
@@ -52,6 +53,17 @@ function About(){
            commodo viverra
            maecenas accumsan lacus vel facilisis.</p>
            <button>Get started</button>
+   </section>
+   <section className="athercontainer">
+    <h3>BUILD</h3>
+    <h1>Build that great idea that you have</h1>
+    <p>Quis ipsum suspendisse ultrices gravida risus commodo
+       viverra maecenas accumsan lacus vel facilisis</p>
+       <button>LEARN MORE</button>
+   </section>
+   </section>
+   <section className="slider">
+    <h1>We work in several verticals</h1>
    </section>
    
   </div>
