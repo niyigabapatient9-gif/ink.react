@@ -28,6 +28,8 @@
     </section>
     {/*this render your imported About component*/}
     <About/>
+    {/*imported tem*/}
+    <Team/>
     </div>
   )
 }
