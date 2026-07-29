@@ -11,10 +11,10 @@ import "./nav.css";
              <a href="#">Blog</a>
                <a href="#">Docs</a>
             </ul>
-            <button>
-                  <button>Sin In</button>
-                 <button>Sin Up</button>
-            </button>
+            <div className="nav-buttons">
+        <button>Sign In</button>
+        <button>Sign Up</button>
+      </div>
         </div>
         
     )
