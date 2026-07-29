@@ -2,13 +2,7 @@
 .corousel{
     width: 90%;
     overflow: hidden;
-   
-    
 }
-
-
-
-
 .track{
     display: flex;
     width:max-content;
