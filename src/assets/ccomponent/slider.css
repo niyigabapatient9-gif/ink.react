@@ -1,34 +1,38 @@
-*
-.silder{
-    margin:100px auto;
+
+.corousel{
     width: 90%;
-    border: 5px solid #2a1a41;
-    display: flex;
-    overflow-x: auto;
+    overflow: hidden;
+   
     
 }
-.silder ::-webkit-scrollbar {
-    display: none;
+
+
+
+
+.track{
+    display: flex;
+    width:max-content;
+    will-change: transform;
+     animation: scroll 10s linear infinite;
 }
-.group{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    gap:1em;
-    animation: spin 4s linear infinite;
-    padding-right: 1em;
+@keyframes scroll{
+    to{
+        transform: translateX(-50%);
+    }
+   
+    
 }
-.card{
-    flex: 0 0 5em;
-    height:5em;
-    padding: 1em;
-    background-color: #2a1a41;
-    font-size: 3em;
-    border-radius: 8px;
-    text-align: center;
-    align-content: center;
+.item{
+    width:240px;
+    height:200px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    margin-right: 15px;
+    overflow: hidden;
 }
-@keyframes spin{
-    from{translate:0;}
-    to{translate:-100%;}
+.item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
