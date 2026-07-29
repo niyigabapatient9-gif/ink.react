@@ -1,0 +1,26 @@
+ h1{
+    font-size: 400%;
+    margin-left: 5%;
+    margin-top: 20px;
+
+ }
+ P{
+    font-size: 200%;
+    margin-left: 2%;
+    margin-top: 12px;
+ }
+ img {
+    margin-top: 10px;
+ }
+ .img {
+    width: 50%;
+    height: 50%;
+    border-radius: 15px;
+ }
+ .container{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+ }
