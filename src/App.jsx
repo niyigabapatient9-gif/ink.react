@@ -3,6 +3,7 @@
  import Nav from "./assets/ccomponent/nav";
  import About from"./assets/ccomponent/about";
  import Team from"./assets/ccomponent/team";
+ import FQA from"./assets/ccomponent/FQA";
  import "./App.css";
  export default function App(){
   return(
@@ -28,8 +29,10 @@
     </section>
     {/*this render your imported About component*/}
     <About/>
-    {/*imported tem*/}
+    {/*imported team*/}
     <Team/>
+    {/*imported FQA*/}
+    <FQA/>
     </div>
   )
 }
