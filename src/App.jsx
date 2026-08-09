@@ -4,12 +4,22 @@
  import About from"./assets/ccomponent/about";
  import Team from"./assets/ccomponent/team";
  import FQA from"./assets/ccomponent/FQA";
+ import { Routes, Route } from "react-router-dom";
  import "./App.css";
  export default function App(){
   return(
       <div>
       {/* This renders your imported Nav component */}
       <Nav /> 
+      <div className="all content">
+      <Routes>
+    
+        <Route path="/about" element={<About />} />
+        <Route path="/team" element={<Team />} />
+        <Route path="/fqa" element={<FQA />} />
+      </Routes>
+
+      </div>
         <section className="hero-container">
       {/* Left side content */}
       <div className="main-content">
