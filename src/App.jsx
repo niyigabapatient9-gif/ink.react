@@ -1,13 +1,12 @@
- 
- 
- import Nav from "./assets/ccomponent/nav";
- import About from"./assets/ccomponent/about";
- import Team from"./assets/ccomponent/team";
- import FQA from"./assets/ccomponent/FQA";
- import { Routes, Route } from "react-router-dom";
- import "./App.css";
- export default function App(){
-  return(
+import Nav from "./assets/ccomponent/nav";
+import About from "./assets/ccomponent/About";
+import Team from "./assets/ccomponent/Team";
+import FQA from "./assets/ccomponent/FQA";
+import { Routes, Route } from "react-router-dom";
+import "./App.css";
+
+export default function App() {
+  return (
       <div>
       {/* This renders your imported Nav component */}
       <Nav /> 
