@@ -58,7 +58,7 @@
 .btn-signin {
   background-color: transparent;
   color: #032047;                 /* Navy Blue text */
-  border: 1.5px solid #032047;    /* Thin navy border outline */
+  border: 1.5px solid #032047;
 }
 
 .btn-signin:hover {
