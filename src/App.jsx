@@ -1,5 +1,5 @@
 import Nav from "./assets/ccomponent/nav";
-import About from "./assets/ccomponent/About";
+import About from "./assets/ccomponent/about";
 import Team from "./assets/ccomponent/Team";
 import FQA from "./assets/ccomponent/FQA";
 import { Routes, Route } from "react-router-dom";
